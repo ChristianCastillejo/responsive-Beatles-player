@@ -9,7 +9,7 @@ function generateHTML(s) {
         <div class="item s${s}" id=${n}>
           <img src=${images[n]}>
           <div class="item__overlay">
-            <button>View →</button>
+            <button>Play album</button>
           </div>
         </div>
       `;

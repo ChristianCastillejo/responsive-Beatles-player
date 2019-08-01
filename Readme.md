@@ -1,3 +1,5 @@
-Hi! this is a very basic website using HTML, JavaScript and CSS.
+Hi! 
 
-Upload to Gitlab Pages by a simple `.gitlab-ci.yml` file.
+This is a cool responsive Beatles player build using HTML, JavaScript, CSS and Spotify iframe.
+
+You can see it live here: https://chriscastillejo.gitlab.io/responsive-beatles-player.
