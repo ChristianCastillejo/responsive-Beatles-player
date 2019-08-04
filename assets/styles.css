@@ -7,6 +7,11 @@
       font-family: sans-serif;
       background: linear-gradient(to right, #F93D66, #6D47D9);
     }
+    @media screen and (max-width: 400px) {
+      body {
+        padding: 0px;
+      }
+    }
     h1,
     h2,
     h3,
@@ -76,7 +81,7 @@
     }
     .item.s4 {
       grid-row: span 4;
-      grid-column: span 24
+      grid-column: span 4
     }
     .overlay {
       position: fixed;
@@ -103,7 +108,4 @@
       grid-gap: 10px;
       grid-template-rows: auto 30px;
       justify-items: center;
-    }
-    .overlay img {
-      width: 100%;
     }

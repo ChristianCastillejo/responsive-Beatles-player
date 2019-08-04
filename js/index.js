@@ -35,26 +35,7 @@ function handleClick(e) {
 function close() {
   overlay.classList.remove("open");
 }
-const digits = Array.from({ length: 50 }, () => randomNumber(4)).concat([
-  [1, 1],
-  [1, 1],
-  [1, 1],
-  [1, 1],
-  [1, 1],
-  [1, 1],
-  [1, 1],
-  [1, 1],
-  [1, 1],
-  [1, 1],
-  [1, 1],
-  [1, 1],
-  [1, 1],
-  [1, 1],
-  [1, 1],
-  [1, 1],
-  [1, 1],
-  [1, 1]
-]);
+const digits = Array.from({ length: 50 }, () => randomNumber(4)).concat(Array(15).fill([1,1]));
 
 const images = [
   "https://i.scdn.co/image/215742dc3f7ec9ca88445d5549975a6998e8376c",
